@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DepartementsComponent } from './departements/departements.component';
+import { AdministrationComponent } from './administration/administration.component';
+import { MaintenanceComponent } from './maintenance/maintenance.component';
+import { Clubs4cComponent } from './clubs4c/clubs4c.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DepartementsComponent,
+    AdministrationComponent,
+    MaintenanceComponent,
+    Clubs4cComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
