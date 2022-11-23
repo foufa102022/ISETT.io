@@ -8,6 +8,7 @@ import { AdministrationComponent } from './administration/administration.compone
 import { MaintenanceComponent } from './maintenance/maintenance.component';
 import { Clubs4cComponent } from './clubs4c/clubs4c.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './header/header.component';
     AdministrationComponent,
     MaintenanceComponent,
     Clubs4cComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ----------------------------------------------------------
 Project Steps:
 *** Front End ***
-- create an front end angular project: ng new isett
+- create an front end angular project: ng new ISETT
 - integrate bootstrap as css framework in (angular.json - styles part)
 - add departement component: ng generate component departements
 - add administration component
@@ -37,4 +37,4 @@ Project Steps:
 - create a git commit & push to your github repository !! 
 - create version1 branch and push to github
 - create version2 branch
-- add routing module in app-routing.module.ts
+- add routing module in app-routing.module.
